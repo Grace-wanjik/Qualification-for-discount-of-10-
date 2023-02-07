@@ -1,0 +1,11 @@
+//Program to give discount of 10% 
+#include <stdio.h>
+int main(){
+    int amount_of_items;
+    printf("Enter amount_of_items:");
+    scanf("%d",&amount_of_items);
+    if(amount_of_items>5000){
+        printf("Qualified to be given discount");}
+    else{printf("Not qualified to be given discount");}
+    return 0;
+}
